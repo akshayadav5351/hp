@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="./css/mystyle.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <title>Hompepage Promotion Scheduler</title>
+  </head>
+  <body class="bodbg" style="background:url(https://cdn.pixabay.com/photo/2013/10/26/01/23/calendar-200928_960_720.jpg);background-size: cover;color: #fff;">
+<div class="subdiv">
+    <h1 class="middle">Homepage Promotion Scheduler</h1>
+    <form action="/promotion" method="POST" class="frm">
+    <select class="country" name="country">
+      <option value="">Select Country</option>
+      <option value="">All</option>
+      <option value="">Switzerland</option>
+      <option value="">Global</option>
+      <option value="">UK</option>
+      <option value="">Germany</option>
+      <option value="">France</option>
+      <option value="">Italy</option>
+      <option value="">Spain</option>
+    </select>
+    <label for="">Activation Date:</label>
+    <input type="date" name="" value="">
+    <label for="">Deactivation Date:</label>
+    <input type="date" name="" value="">
+    <input type="text" name="" value="" placeholder="Jira ID & Promotion Title" class="wtd">
+    <input type="submit" name="submit" value="Submit" class="bttn">
+  </form>
+    <section class="container">
+	<header id="calendar-header">
+		<button id="prev1s" type="button" class="btn btn-secondary">Prev</button>
+		<h3 id="calendar-month-year"></h3>
+		<button id="next1s" type="button" class="btn btn-secondary">Next</button>
+	</header>
+	<article id="calendar-dates">
+	</article>
+	<footer id="infos">
+	</footer>
+</section>
+</div>
+<script src="./js/jquery-3.5.1.slim.min.js"></script>
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/cal.js"></script>
+  </body>
+</html>
