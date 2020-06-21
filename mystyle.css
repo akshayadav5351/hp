@@ -1,0 +1,154 @@
+/*index.html*/
+
+.middle {
+text-align: center;
+margin-bottom: 30px;
+}
+
+.big {
+  font-weight: 600;
+}
+
+.sz20{
+  font-size: 20px;
+}
+
+.maindiv{
+
+    background: rgba(0,0,0,0.5);
+    width: 56%;
+    vertical-align: middle;
+    float: none;
+    margin: 0 auto;
+    margin-top: 11%;
+    padding: 38px;
+    padding-bottom: 49px;
+
+}
+
+.bodbg{
+  background-color: #E9967A;
+}
+.dropbtn {
+  background-color: #614F46;
+  color: #FFFFFF;
+  padding: 16px;
+  font-size: 18px;
+  border: none;
+  cursor: pointer;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #614F46;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: #FFFFFF;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border: 1px solid;
+
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #614F46;
+}
+
+/*promotion.html*/
+
+.subdiv{
+  background: rgba(0,0,0,0.7);
+  width: 95%;
+  vertical-align: middle;
+  float: none;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 20px;
+  border-radius: 25px;
+  height: 700px;
+}
+
+div.headline1{
+ margin: 0 auto;
+ position: relative;
+ width: 1100px;
+ height: 100px;
+ text-align: center;
+}
+
+.container{
+ margin: 0 auto;
+ position: relative;
+ padding: 5px;
+ width: 90%;
+ text-align: center;
+}
+
+#calendar-month-year{
+ display: inline-block;
+ position: relative;
+ margin: 50px;
+}
+
+table { table-layout: fixed; }
+
+td{
+ width: 3%;
+ border:1px solid #165db9;
+}
+td:first-child{
+    width: 350px;
+}
+
+#prev1s, #next1s{
+    width:100px;
+}
+.frm select, .frm  input{
+  height: 40px;
+  border-radius: 10px;
+  padding: 4px;
+}
+.frm {
+  text-align: center;
+}
+.frm .bttn {
+  padding:0 10px;
+}
+
+.frm .wtd{
+  width: 15%;
+}
+
+/*teaser.html*/
+
+.p2{
+  background-color: #4CAF50;
+}
+
+.p3{
+  background-color: #008CBA;
+}
+
+.p4{
+  background-color: #F44336;
+}
